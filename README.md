@@ -3,7 +3,7 @@ script-timestamp-webpack-plugin 是 Webpack 一款插件，用来在 Webpack 打
 
 实现效果：
 
-![script-timestamp-webpack-plugin](https://blog.pingan8787.com/github/script-timestamp-webpack-plugin result.png)
+![script-timestamp-webpack-plugin](https://blog.pingan8787.com/github/script-timestamp-webpack-plugin%20result.png)
 
 
 # 二、运行机制
@@ -36,7 +36,7 @@ npm install script-timestamp-webpack-plugin --save-dev
 ```
 
 
-![script-timestamp-webpack-plugin](https://blog.pingan8787.com/github/script-timestamp-webpack-plugin replace.png)
+![script-timestamp-webpack-plugin](https://blog.pingan8787.com/github/script-timestamp-webpack-plugin%20replace.png)
 
 
 引入插件，并实例化：
