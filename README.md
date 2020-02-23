@@ -1,12 +1,14 @@
 # 一、插件介绍
 script-timestamp-webpack-plugin 是 Webpack 一款插件，用来在 Webpack 打包项目后生成的 `index.html` 文件中，为生成 js 文件的添加时间戳。
 
-![script-timestamp-webpack-plugin](https://cdn.nlark.com/yuque/0/2020/png/186051/1582460114068-9a6633a6-6550-4c1b-ab48-a4a8c4adeadf.png)
+实现效果：
+
+![script-timestamp-webpack-plugin](https://blog.pingan8787.com/github/script-timestamp-webpack-plugin result.png)
 
 
 # 二、运行机制
 
-![script-timestamp-webpack-plugin运行机制](https://cdn.nlark.com/yuque/0/2020/png/186051/1582434130840-08e3721b-9cd9-4646-9b34-be47d83e3b17.png)
+![script-timestamp-webpack-plugin运行机制](https://blog.pingan8787.com/github/script-timestamp-webpack-plugin.png)
 
 # 三、插件使用 
 
@@ -32,6 +34,9 @@ npm install script-timestamp-webpack-plugin --save-dev
 </body>
 </html>
 ```
+
+
+![script-timestamp-webpack-plugin](https://blog.pingan8787.com/github/script-timestamp-webpack-plugin replace.png)
 
 
 引入插件，并实例化：
