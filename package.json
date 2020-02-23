@@ -1,0 +1,35 @@
+{
+  "name": "script-timestamp-webpack-plugin",
+  "version": "1.0.5",
+  "description": "script-timestamp-webpack-plugin",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist/*.js && npx webpack --config ./webpack.config.js"
+  },
+  "keywords": [
+    "script-timestamp-webpack-plugin",
+    "Webpack4 插件",
+    "Webpack4"
+  ],
+  "author": "pingan8787",
+  "license": "ISC",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pingan8787/script-timestamp-webpack-plugin.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "autoprefixer": "^9.7.4",
+    "babel-loader": "^8.0.6",
+    "node-sass": "^4.13.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
