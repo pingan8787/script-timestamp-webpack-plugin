@@ -1,6 +1,6 @@
 {
   "name": "script-timestamp-webpack-plugin",
-  "version": "1.0.5",
+  "version": "1.0.0",
   "description": "script-timestamp-webpack-plugin 是 Webpack 一款插件，用来在 Webpack 打包项目后生成的 index.html 文件中，为生成 js 文件的添加时间戳。",
   "main": "./dist/ScriptTimestampWebpackPlugin.js",
   "scripts": {
