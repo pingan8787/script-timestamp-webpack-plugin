@@ -2,7 +2,7 @@
   "name": "script-timestamp-webpack-plugin",
   "version": "1.0.5",
   "description": "script-timestamp-webpack-plugin",
-  "main": "index.js",
+  "main": "./dist/ScriptTimestampWebpackPlugin.js",
   "scripts": {
     "build": "rm -rf dist/*.js && npx webpack --config ./webpack.config.js"
   },
