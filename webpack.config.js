@@ -4,7 +4,9 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 module.exports = {
     entry: './src/index.js',
     output: {
-        filename: 'ScriptTimestampWebpackPlugin.js'
+        filename: 'ScriptTimestampWebpackPlugin.js',
+        umdNamedDefine: true,
+        libraryTarget: "umd",
     },
     module: {
         rules: [
