@@ -36,7 +36,7 @@ npm install script-timestamp-webpack-plugin --save-dev
 ```
 
 
-![script-timestamp-webpack-plugin](https://blog.pingan8787.com/github/script-timestamp-webpack-plugin%20replace.png)
+![script-timestamp-webpack-plugin](https://blog.pingan8787.com/github/script-timestamp-webpack-plugin-results.png)
 
 
 引入插件，并实例化：
