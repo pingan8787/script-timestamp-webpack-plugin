@@ -30,7 +30,7 @@ npm install script-timestamp-webpack-plugin --save-dev
     <title>hello script-timestamp-webpack-plugin!</title>
 </head>
 <body>
-    <!--SetScriptTimestampPlugin inset script-->
+    <!--script-timestamp-webpack-plugin inset script-->
 </body>
 </html>
 ```
