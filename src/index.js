@@ -9,8 +9,8 @@ class ScriptTimestampWebpackPlugin {
             htmlPluginData.assets.js = [];
             let result = `
                   <script>
-                      let scriptDOM = document.createElement("script");
-                      let jsScr = "./${jsScr}";
+                      var scriptDOM = document.createElement("script");
+                      var jsScr = "./${jsScr}";
                       scriptDOM.src = jsScr + "?" + new Date().getTime();
                       document.body.appendChild(scriptDOM)
                   </script>
