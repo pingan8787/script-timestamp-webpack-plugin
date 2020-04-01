@@ -53,11 +53,23 @@ module.exports = {
 }
 ```
 
+# 三、Vuejs 使用
 
-# 四、更新计划
+```js
+// vue.config.js
 
-1. [ ] 上架 1.0.0 到 npm；
-2. [ ] 增加：多文件处理；
-3. [ ] 增加：单元测试；
-4. [ ] 升级：TS版本；
- 
+const ScriptTimestampWebpackPlugin = require("script-timestamp-webpack-plugin");
+module.exports = {
+  // ... 省略其他配置
+  configureWebpack: {
+    plugins: [
+      // ... 省略其他插件
+      new ScriptTimestampWebpackPlugin()  
+    ]
+  }
+}
+```
+
+# 四、其他
+
+React Angular 等，使用方法类似~~
